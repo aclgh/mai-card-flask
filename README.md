@@ -1,4 +1,5 @@
-# maicard-py
+# maicard-flask
+改为flask api，以不占用过多的bot性能。
 
 基于Python的玩家收藏品组合的图片生成器
 ![output.png](output.png)
