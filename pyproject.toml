@@ -1,0 +1,15 @@
+[project]
+name = "mai-card-flask"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "aclgh", email = ""},
+]
+dependencies = ["flask>=3.1.0"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
