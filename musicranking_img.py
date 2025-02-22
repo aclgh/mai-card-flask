@@ -105,18 +105,14 @@ def generate_ranking_image(data, music_data, output_path="music_output.png"):
             draw.text((x + 55, y + 24), music_name, font=font, fill="white")
             y += line_height
 
-        script_dir = os.path.dirname(__file__)
-        output_path = os.path.join(script_dir, 'gen_pic', output_path)
-        background.save(output_path)
-        print(f"图片已保存为 {output_path}")
-        return output_path
+        return background
 
     except Exception as e:
         print(f"生成图片失败: {e}")
         return None
 
 
-def main():
+def call_ranking_img():
     api_name = "GetGameRankingApiMaimaiChn"
     data = '{"type":1}'
 
@@ -125,10 +121,11 @@ def main():
     if status == 200:
         music_data = load_music_list()
         start_time = time.time()
-        output_path = generate_ranking_image(
+        img = generate_ranking_image(
             response, music_data, output_path="output.png")
         end_time = time.time()
         print(f"生成图片耗时: {end_time - start_time} 秒")
+        return img
 
 
 if __name__ == '__main__':
