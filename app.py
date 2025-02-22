@@ -6,7 +6,7 @@ import io
 from datetime import datetime
 from flask import Flask, request, redirect, jsonify, send_file
 from flask_cors import CORS
-from generate_img import call_user_img
+from card_img import call_user_img
 
 app = Flask(__name__)
 app.json.sort_keys = False

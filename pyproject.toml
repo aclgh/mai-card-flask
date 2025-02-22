@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "aclgh", email = "heroaclgh@gmail.com"},
 ]
-dependencies = ["flask>=3.1.0", "pytz>=2025.1", "flask-cors>=5.0.0", "requests>=2.32.3", "Pillow>=11.1.0"]
+dependencies = ["flask>=3.1.0", "pytz>=2025.1", "flask-cors>=5.0.0", "requests>=2.32.3", "Pillow>=11.1.0", "httpx>=0.28.1", "pycryptodomex>=3.21.0", "fuzzywuzzy>=0.18.0"]
 requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}
