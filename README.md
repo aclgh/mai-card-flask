@@ -7,6 +7,7 @@
 ![output.png](/gen_pic/output_image.png)
 *raking*
 推荐乐曲排行榜生成器
+
 ![output.png](/gen_pic/output.png)
 
 ## 项目简介
