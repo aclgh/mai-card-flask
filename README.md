@@ -1,6 +1,6 @@
 # maicard-flask
 改为flask api，以不占用过多的bot性能。
-更新res文件至prism版本[res_new.rar(谷歌云盘)](https://drive.google.com/file/d/1Pn416VpaAHTff3__3SkYKwxZjLzlmZRg/view?usp=sharing)
+更新res文件至prism版本[res.rar(谷歌云盘)](https://drive.google.com/file/d/1tew7KkuP_EEzMdSShdy0cSEGc1sZePKz/view?usp=drive_link)
 
 *card*
 玩家收藏品组合的图片生成器

@@ -4,3 +4,4 @@
 /.venv
 /..gitignore
 /res.zip
+/pdm.lock
